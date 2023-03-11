@@ -34,7 +34,7 @@ exports[`icon components styles 1`] = `
     "top": "4px",
     "width": "2px",
   },
-  "&::after,.gg-add-r::before": {
+  "&::after,&::before": {
     "background": "currentColor",
     "border-radius": "5px",
     "box-sizing": "border-box",

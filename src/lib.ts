@@ -1,7 +1,7 @@
 import cssggJson from 'css.gg/icons/all.json'
 
 export const generateIconComponent = (key: string, css: string) => {
-  const resolvedKey = `.gg-${key}`
+  const resolvedKey = new RegExp(`.gg-${key}`, 'g')
   const styleObject: Record<string, Record<string, string>> = {}
 
   css.split('}').forEach((rule) => {

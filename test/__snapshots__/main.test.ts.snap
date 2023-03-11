@@ -1,0 +1,50 @@
+// Vitest Snapshot v1
+
+exports[`generate icon component 1`] = `
+{
+  "&": {
+    "border-bottom": "18px solid currentColor",
+    "border-left": "9px solid transparent",
+    "border-right": "9px solid transparent",
+    "box-sizing": "border-box",
+    "display": "block",
+    "height": "0px",
+    "position": "relative",
+    "transform": "scale(var(--ggs,1))",
+    "width": "0px",
+  },
+}
+`;
+
+exports[`icon components styles 1`] = `
+{
+  "&": {
+    "border": "2px solid",
+    "border-radius": "4px",
+    "box-sizing": "border-box",
+    "display": "block",
+    "height": "22px",
+    "position": "relative",
+    "transform": "scale(var(--ggs,1))",
+    "width": "22px",
+  },
+  "&::after": {
+    "height": "10px",
+    "left": "8px",
+    "top": "4px",
+    "width": "2px",
+  },
+  "&::after,.gg-add-r::before": {
+    "background": "currentColor",
+    "border-radius": "5px",
+    "box-sizing": "border-box",
+    "content": "\\"\\"",
+    "display": "block",
+    "height": "2px",
+    "left": "4px",
+    "position": "absolute",
+    "top": "8px",
+    "width": "10px",
+  },
+}
+`;

@@ -24,6 +24,17 @@
     "name": "JiangWeixian",
     "email": "jiangweixian1994@gmail.com"
   },
+  "scripts": {
+    "test": "echo test",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "ci:publish": "pnpm run build && pnpm changeset publish",
+    "ci:version": "pnpm changeset version",
+    "ci:snapshot": "pnpm changeset version --snapshot beta",
+    "ci:prerelease": "pnpm run build && pnpm changeset publish --tag beta",
+    "lint:fix": "eslint . --fix"
+  },
   "lint-staged": {
     "**/**/*.{js,ts,tsx,vue,json}": [
       "eslint --fix"
@@ -64,16 +75,5 @@
     "commitizen": {
       "path": "node_modules/cz-emoji"
     }
-  },
-  "scripts": {
-    "test": "echo test",
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview",
-    "ci:publish": "pnpm run build && pnpm changeset publish",
-    "ci:version": "pnpm changeset version",
-    "ci:snapshot": "pnpm changeset version --snapshot beta",
-    "ci:prerelease": "pnpm run build && pnpm changeset publish --tag beta",
-    "lint:fix": "eslint . --fix"
   }
 }

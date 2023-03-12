@@ -1,6 +1,6 @@
 {
   "name": "tailwind-cssgg",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "homepage": "https://github.com/JiangWeixian/tailwind-cssgg#readme",
   "repository": {
@@ -24,7 +24,9 @@
       "import": "./dist/index.mjs"
     }
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",

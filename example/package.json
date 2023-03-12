@@ -1,6 +1,7 @@
 {
-  "name": "@aiou/vite-template",
+  "name": "example",
   "version": "0.1.2",
+  "private": true,
   "description": "vite react template",
   "keywords": [
     "aiou",

@@ -21,6 +21,9 @@ Then you can use the icons in your HTML:
 ```html
 <!-- pattern: gg-[iconname] -->
 <i className="gg-zeit" />
+
+<!-- pattern: gg-[iconname]/scale, will apply transform: scale(0.5) -->
+<i className="gg-zeit/0.5" />
 ```
 
 ## install

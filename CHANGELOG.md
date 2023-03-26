@@ -1,5 +1,11 @@
 # tailwind-cssgg
 
+## 0.0.3
+
+### Patch Changes
+
+- cd0edff: extra undefined
+
 ## 0.0.2
 
 ### Patch Changes

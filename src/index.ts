@@ -12,7 +12,7 @@ export const cssgg = plugin((props) => {
           )
           return {}
         }
-        const ggs = extra.modifier ?? 1
+        const ggs = extra?.modifier ?? 1
         const styles = value as Record<string, any>
         return {
           ...styles,

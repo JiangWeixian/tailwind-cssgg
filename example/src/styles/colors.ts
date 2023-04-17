@@ -12,7 +12,7 @@ function tailwindColorMap<T extends keyof typeof twcolors>(
 ): {
   [P in keyof (typeof twcolors)[T] as `${T}-${TailwindColorStop}`]: string
 } {
-  // @ts-ignore: I promise the type is correct:
+  // @ts-expect-error: I promise the type is correct:
   return Object.fromEntries(
     Object.entries(twcolors[name]).map(([num, value]) => [`${name}-${num}`, value]),
   )

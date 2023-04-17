@@ -1,6 +1,6 @@
 // Vitest Snapshot v1
 
-exports[`generate icon component 1`] = `
+exports[`generate icon > generate icon component 1`] = `
 {
   "&": {
     "border-bottom": "18px solid currentColor",
@@ -12,6 +12,43 @@ exports[`generate icon component 1`] = `
     "position": "relative",
     "transform": "scale(var(--ggs,1))",
     "width": "0px",
+  },
+}
+`;
+
+exports[`generate icon > generate icon component with keyframes 1`] = `
+{
+  "&": {
+    "transform": "scale(var(--ggs,1))",
+  },
+  "&,&::after,&::before": {
+    "box-sizing": "border-box",
+    "display": "block",
+    "height": "20px",
+    "position": "relative",
+    "width": "20px",
+  },
+  "&::after": {
+    "border": "3px solid",
+    "opacity": ".2",
+  },
+  "&::after,&::before": {
+    "border-radius": "100px",
+    "content": "\\"\\"",
+    "position": "absolute",
+  },
+  "&::before": {
+    "animation": "spinner 1s cubic-bezier(.6,0,.4,1) infinite",
+    "border": "3px solid transparent",
+    "border-top-color": "currentColor",
+  },
+  "@keyframes spinner": {
+    "0%": {
+      "transform": "rotate(0deg)",
+    },
+    "to": {
+      "transform": "rotate(359deg)",
+    },
   },
 }
 `;
@@ -45,6 +82,35 @@ exports[`icon components styles 1`] = `
     "position": "absolute",
     "top": "8px",
     "width": "10px",
+  },
+}
+`;
+
+exports[`utils > extract loadbar-alt keyframes 1`] = `
+{
+  "@keyframes loadbaralt": {
+    "0%,to": {
+      "right": "80%",
+    },
+    "25%,75%": {
+      "right": "0",
+    },
+    "50%": {
+      "right": "0",
+    },
+  },
+}
+`;
+
+exports[`utils > extract spinner keyframes 1`] = `
+{
+  "@keyframes spinner": {
+    "0%": {
+      "transform": "rotate(0deg)",
+    },
+    "to": {
+      "transform": "rotate(359deg)",
+    },
   },
 }
 `;

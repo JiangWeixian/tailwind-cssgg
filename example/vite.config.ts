@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import pages from 'vite-plugin-pages'
 import { VitePluginDocument } from 'vite-plugin-document'
 import inspect from 'vite-plugin-inspect'
-import path from 'path'
+import path from 'node:path'
 
 // https://vitejs.dev/config/
 export default defineConfig({

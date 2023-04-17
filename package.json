@@ -24,12 +24,12 @@
       "import": "./dist/index.mjs"
     }
   },
-  "files": [
-    "dist"
-  ],
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "rimraf dist && rollup -c --silent",
     "dev": "rollup -c -w --silent",
@@ -56,7 +56,7 @@
     "css.gg": "^2.0.0"
   },
   "devDependencies": {
-    "@aiou/eslint-config": "0.5.1",
+    "@aiou/eslint-config": "0.8.2",
     "@changesets/cli": "2.21.1",
     "@iconify-json/heroicons": "^1.1.10",
     "@rollup/plugin-alias": "3.1.9",
@@ -68,7 +68,6 @@
     "esrua": "0.2.1",
     "husky": "7.0.4",
     "lint-staged": "11.2.6",
-    "prettier": "2.4.1",
     "publish-police": "^0.0.3",
     "rimraf": "3.0.2",
     "rollup": "2.71.1",
@@ -86,7 +85,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "cz-emoji"
+      "path": "node_modules/cz-emoji"
     }
   },
   "packageManager": "pnpm@7.23.0"

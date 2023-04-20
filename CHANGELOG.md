@@ -1,5 +1,15 @@
 # tailwind-cssgg
 
+## 0.1.0
+
+### Minor Changes
+
+- a46480a: parse keyframes
+
+### Patch Changes
+
+- a46480a: keyframes
+
 ## 0.0.3
 
 ### Patch Changes

@@ -2,7 +2,7 @@
 
 exports[`generate icon > generate icon component 1`] = `
 {
-  "&": {
+  ".gg-vercel": {
     "border-bottom": "18px solid currentColor",
     "border-left": "9px solid transparent",
     "border-right": "9px solid transparent",

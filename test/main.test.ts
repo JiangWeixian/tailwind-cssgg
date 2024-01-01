@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest'
-import cssggJson from 'css.gg/icons/all.json'
+import cssggJson from 'css.gg/icons/icons.json'
 import { buildCssggIcon, generateIconComponent, generateKeyframes } from '../src/lib'
 
 const collections = buildCssggIcon()
@@ -20,7 +20,7 @@ describe('utils', () => {
 
 describe('generate icon', () => {
   test('generate icon component', () => {
-    const raw = generateIconComponent('zeit', cssggJson.zeit[0][0].css)
+    const raw = generateIconComponent('zeit', cssggJson.vercel[0][0].css)
     expect(raw).toMatchSnapshot()
   })
 

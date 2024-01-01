@@ -1,5 +1,12 @@
 # tailwind-cssgg
 
+## 0.2.0
+
+### Minor Changes
+
+- 034d890: mv css.gg to peer
+- 034d890: requiest css.gg^2.1.1 due to icons path changed
+
 ## 0.1.0
 
 ### Minor Changes

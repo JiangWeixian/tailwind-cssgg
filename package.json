@@ -50,11 +50,10 @@
     ]
   },
   "peerDependencies": {
-    "tailwindcss": "^3"
-  },
-  "dependencies": {
+    "tailwindcss": "^3",
     "css.gg": "^2.1.1"
   },
+  "dependencies": {},
   "devDependencies": {
     "@aiou/eslint-config": "0.8.2",
     "@changesets/cli": "2.21.1",

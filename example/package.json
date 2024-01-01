@@ -52,6 +52,7 @@
     "react-router-dom": "6.3.0"
   },
   "devDependencies": {
+    "css.gg": "2.1.1",
     "@aiou/eslint-config": "^0.5.1",
     "@changesets/cli": "^2.24.4",
     "@types/react": "^18.0.18",

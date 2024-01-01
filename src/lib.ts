@@ -1,4 +1,4 @@
-import cssggJson from 'css.gg/icons/all.json'
+import cssggJson from 'css.gg/icons/icons.json'
 
 // Regular expression to match @keyframes rules
 const keyframesRE = /@keyframes\s+([\w-]+)\s*\{([^.]*)\}/g
